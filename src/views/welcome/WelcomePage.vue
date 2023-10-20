@@ -12,7 +12,7 @@
                 </swiper-slide>
                 <swiper-slide class="slide">
                     <div>Welcome 3</div>
-                    <ion-button href="/home">start</ion-button>
+                    <ion-button href="/auth/login">start</ion-button>
                 </swiper-slide>
             </swiper-container>
         </ion-content>

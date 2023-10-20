@@ -56,7 +56,7 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('@/views/profile/ProfileSettingsPage.vue')
   }
   ,{
-    path:'/login',
+    path:'/auth/login',
     name:'login',
     component: LoginPage
   }
