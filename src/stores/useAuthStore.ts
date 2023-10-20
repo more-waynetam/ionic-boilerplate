@@ -16,7 +16,8 @@ export const useAuthStore = defineStore('authStore', ()=>{
     }
 
     const isSignedIn = () => {
-        return currentUser.value !== null;
+        return true;
+        //return currentUser.value !== null;
     }
     return {currentUser, signIn, signOut, isSignedIn}
 })

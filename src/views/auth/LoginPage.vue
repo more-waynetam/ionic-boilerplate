@@ -36,6 +36,6 @@ const router=useRouter();
 const login = () => {
     authStore.signIn(email.value, password.value);
     //redirect to home
-    router.push('/tabs/tab1');
+    router.push('/home/dashboard');
 }
 </script>
