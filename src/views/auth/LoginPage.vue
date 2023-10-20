@@ -30,8 +30,8 @@ import { useRouter } from 'vue-router';
 
 import { useAuthStore } from '@/stores/useAuthStore';
 const authStore = useAuthStore();
-const email = ref('');
-const password = ref('');
+const email = ref('default-user');
+const password = ref('password');
 const router=useRouter();
 const login = () => {
     authStore.signIn(email.value, password.value);
